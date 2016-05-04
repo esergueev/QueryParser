@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2FAEC57B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grammar", "src\Grammar\Grammar.csproj", "{96B8F388-8551-4467-B8FA-5FD81F8FD436}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grammar.Tests", "tests\Grammar.Tests\Grammar.Tests.csproj", "{FE24F5ED-0770-4778-938D-A68B85C41189}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,11 +21,16 @@ Global
 		{96B8F388-8551-4467-B8FA-5FD81F8FD436}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96B8F388-8551-4467-B8FA-5FD81F8FD436}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96B8F388-8551-4467-B8FA-5FD81F8FD436}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE24F5ED-0770-4778-938D-A68B85C41189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE24F5ED-0770-4778-938D-A68B85C41189}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE24F5ED-0770-4778-938D-A68B85C41189}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE24F5ED-0770-4778-938D-A68B85C41189}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{96B8F388-8551-4467-B8FA-5FD81F8FD436} = {5292DFA9-BEC5-4740-8742-A2E62FBEBE94}
+		{FE24F5ED-0770-4778-938D-A68B85C41189} = {2FAEC57B-BE42-441C-8E6C-1FF64B1C4465}
 	EndGlobalSection
 EndGlobal
