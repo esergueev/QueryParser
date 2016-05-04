@@ -6,14 +6,6 @@ namespace Grammar.Tests
 {
     public class Parsing
     {
-        private readonly ITestOutputHelper _outputHelper;
-
-        public Parsing(ITestOutputHelper outputHelper)
-        {
-            _outputHelper = outputHelper;
-        }
-
-
         [Theory]
         [InlineData("")]
         [InlineData(null)]
